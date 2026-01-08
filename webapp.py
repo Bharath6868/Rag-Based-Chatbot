@@ -9,7 +9,7 @@ from pypdf import PdfReader
 import streamlit as st
 from pdfextractor import text_extractor_pdf  # Custom PDF text extractor
 
-# ✅ Load environment variables from .env
+#  Load environment variables from .env
 from dotenv import load_dotenv
 load_dotenv()
 
